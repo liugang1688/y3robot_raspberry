@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="brain" type="brain_node.py" name="brain_node" output="screen" />
+</launch>

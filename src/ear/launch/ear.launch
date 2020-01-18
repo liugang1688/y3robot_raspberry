@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="ear" type="ear_node_pub.py" name="ear_node" output="screen" />
+</launch>

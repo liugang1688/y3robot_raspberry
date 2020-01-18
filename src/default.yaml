@@ -1,0 +1,22 @@
+configs:
+  myrobot : 
+    START_RECORD_PATH : 'audio/ding.wav'
+  snowboy : 
+    hotword : 'dudu.pmdl'
+    sensitivity : '0.5' #灵敏度，值越低识别度越高
+    recording_timeout : '5' #录制语音的最大长度（s）
+    silent_threshold : '10'
+  baiduApi:
+    ROBOT:
+      ID : 'S25293'
+      API_KEY : 'G7DgRU12sCBsmg3u9meosdSg'
+      SECRET_KEY : 'y93GcXqGe4gr7zvX7GgPu8YnFqWoe4Kt'
+    APP_ID : '17971491'
+    API_KEY : 'lDeumTi8MzVlITqsl7OG0Wn0'
+    SECRET_KEY : 'wmb2PR0xk9IzfP6dfOhEhYIOvvoZzXLn'
+    DEV_PID : '1936' #1936: 普通话远场，1536：普通话(支持简单的英文识别)，80001：ASR极速版（请使用自己的百度语音账户再使用）
+    PER :  4  # 发音人选择 0：女生；1：男生；3：度逍遥；4：度丫丫
+    voice : 
+      SPEECH_OUTPUT_PATH : 'audio/machine.mp3'
+      SPEECH_INPUT_PATH : 'audio/record.wav'
+

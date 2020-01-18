@@ -1,0 +1,4 @@
+<launch>
+	<!-- Turtlesim Node-->
+	<node pkg="mouth" type="mouth_node_sub.py" name="mouth_node" output = "screen"/>
+</launch>
